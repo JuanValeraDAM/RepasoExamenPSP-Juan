@@ -38,7 +38,6 @@ cuestión).
                 procesos) {
             if(!proceso.waitFor(2, TimeUnit.SECONDS)){
                 System.out.println("Dejo de esperar al proceso "+proceso.pid());
-                proceso.destroy();
             }
         }
 /*
@@ -46,8 +45,10 @@ cuestión).
 que toda su salida (tanto estándar como de error) quede registrada en un mismo
 fichero. Indica con qué código harías estas redirecciones (sólo ese código).
  */
-        System.setOut(new PrintStream("fichero.txt"));
-        System.setErr(new PrintStream("fichero.txt"));
+      //  System.setOut(new PrintStream("fichero.txt"));
+      //  System.setErr(new PrintStream("fichero.txt"));
+
+
 
     }
 }

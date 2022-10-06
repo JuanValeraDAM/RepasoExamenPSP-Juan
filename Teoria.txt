@@ -1,6 +1,7 @@
 1. (máx. 1,00 punto) Argumenta por qué un proceso en estado “bloqueado” no puede
 pasar directamente al estado “en ejecución”. Debes razonar al máximo tu respuesta.
 
+
 2. (máx. 2,00 puntos) Explica brevemente qué es lo que provoca que un proceso:
 a. Pase de “en ejecución” a “bloqueado”;
 b. Pase de “listo” a “en ejecución”
